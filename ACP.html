@@ -111,10 +111,10 @@
 										
 										<article>
 											<!-- <a href="#" class="image"><img src="qvote-assets/images/my-elections.jpeg" alt="" style="width:200px;" /></a> -->
-											<h3>Get Access Key</h3>
+											<h3 id="permission">Get Access Key</h3>
 											<p>We use your facebook access key to get the permission to read, update and delete your facebook contents in a secure way.</p>
 											<h4>Required permissions</h4>
-                                            <p>
+                                            <p >
                                                 <ol>
                                                     <li>publish_video</li>
                                                     <li>pages_show_list</li>
@@ -132,6 +132,21 @@
 
                                                 </ol>
                                             </p>
+											<h4>Get API Key</h4>
+											<p>You can get your api key from <a href="https://developers.facebook.com/tools/explorer/">here.</a></p>
+											<p>Follow the steps</p>
+											<p>
+												<ol>
+													<li><a href="https://developers.facebook.com/apps">create an app</a> with a name <b>ACPAPP</b></li>
+													<li>Go to <a href="https://developers.facebook.com/tools/explorer/">Graph API</a></li>
+													<li>Select the <a href="#permission">permissions</a> one by one. ( Do not try to select all permission at once.)</li>
+													<li>Click on Generate Access Token</li>
+													<li>Click on the i button on left of the token</li>
+													<li>click on <a href="https://developers.facebook.com/tools/debug/accesstoken">Open in Access Token Tool</a></li>
+													<li>Click on Extend token that you will see when you scroll down</li>
+													<li>Copy the new token and paste it on the settings > Facebook Access key of ACP mobile app</li>
+												</ol>
+											</p>
                                             	<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
